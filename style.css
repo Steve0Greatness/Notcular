@@ -1,0 +1,111 @@
+html {
+    color: white;
+    background-color: black;
+    --searchColor: #000;
+    --buttonBorder: #fe5a70;
+    --buttonColor: #c00;
+    --resultsColor: black;
+}
+
+#gsc-i-id1 {
+    background-color: var(--searchColor) !important;
+    color: white;
+}
+
+#gsc-i-id1:target,
+#gsc-i-id1:active,
+#gsc-i-id1:focus {
+    background-image: none !important;
+}
+
+.gsc-webResult.gsc-result {
+    border-color: black !important;
+}
+
+.gsc-above-wrapper-area {
+    border-bottom-color: grey !important;
+}
+
+.gsc-search-button.gsc-search-button-v2 {
+    border-color: var(--buttonBorder) !important;
+    background-color: var(--buttonColor) !important;
+}
+
+#_notcular-logo {
+    background-image: url("./Notcular.svg");
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: 1em;
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 1em;
+}
+
+#_notcular-desc {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+:any-link {
+    color: red;
+}
+
+.gsc-results-wrapper-overlay.gsc-results-wrapper-visible {
+    background-color: var(--resultsColor) !important;
+}
+
+.gs-title:any-link {
+    color: red !important;
+}
+
+.gs-title:any-link b {
+    color: #c00 !important;
+}
+
+.gs-bidi-start-align.gs-visibleUrl.gs-visibleUrl-breadcrumb span {
+    color: #99f;
+}
+
+.gsc-control-cse {
+    background-color: black !important;
+    border: none !important;
+}
+
+.gsc-input-box {
+    border-color: #fff !important;
+    background-color: #000 !important;
+}
+
+.gsc-completion-container {
+    background-color: black !important;
+    border-color: #fff !important;
+}
+
+.gsc-completion-selected {
+    background-color: #333 !important;
+}
+
+.gsc-option-menu-item-highlighted {
+    background-color: #112 !important;
+    color: white !important;
+}
+
+.gsc-control-cse .gsc-option-menu {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: white !important;
+    box-shadow: 0 2px 4px white !important;
+}
+
+.gs-bidi-start-align.gs-snippet {
+    color: lightgrey !important;
+}
+
+.gsc-selected-option-container {
+    background-color: black !important;
+    border-color: white !important;
+}
+
+.gsc-selected-option-container {
+    color: whitesmoke !important;
+}
