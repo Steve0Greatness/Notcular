@@ -20,6 +20,7 @@ html {
 
 .gsc-webResult.gsc-result {
     border-color: black !important;
+    background-color: black !important;
 }
 
 .gsc-above-wrapper-area {
