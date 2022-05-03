@@ -110,3 +110,16 @@ html {
 .gsc-selected-option-container {
     color: whitesmoke !important;
 }
+
+.ocular {
+    color: green;
+}
+
+.ocular:active {
+    color: limegreen;
+    background-image: url("./ocular_logo.svg");
+    background-size: 15px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+}
